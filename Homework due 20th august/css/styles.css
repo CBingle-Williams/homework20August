@@ -1,0 +1,144 @@
+body {
+    width: 75%;
+    margin: auto;
+}
+
+h1,h2,h3,p {
+font-family: 'Open Sans', sans-serif;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0px 0px 0px 0px;
+    margin: 10px 20px 10px 20px;
+}
+
+li {
+    font-family: 'Open Sans', sans-serif;
+}
+
+.title {
+    margin: 0px 20px 0px 20px;
+}
+
+.grey {
+    color: grey;
+}
+
+.seperation {
+    border-top: 0.05px solid orange;
+    border-bottom: 0.05px solid orange;
+    margin: 40px 0px 40px 0px;
+    background-color: rgb(245,245,245);
+}
+
+.disk {
+    list-style-type: disc;
+}
+
+.circle {
+    list-style-type: circle;
+}
+
+.square {
+    list-style-type: square;
+}
+
+.title h1 {
+    font-size: 30px;
+}
+
+.projects {
+    width: 100%;
+    height: auto;
+    margin: 40px 0px 40px 0px;
+    overflow: hidden;
+}
+
+.round {
+    border-radius: 50%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.project {
+    width: 30%;
+    height: auto;
+    border: 1px solid #e5e0e0;
+    margin: 0px auto 0px auto;
+}
+
+.project img {
+    width: 100%;
+    height: auto;
+    display:block;
+    margin: auto auto auto auto;
+}
+
+.project img:hover {
+    -webkit-filter: brightness(60%);
+    -webkit-transition: all 1s ease;
+    -moz-transition: all 1s ease;
+    -o-transition: all 1s ease;
+    -ms-transition: all 1s ease;
+    transition: all 1s ease;
+}
+
+nav {
+    border-bottom: 1px solid black;
+}
+
+article {
+    padding: 10px 0px 10px 0px;
+}
+
+article h1 {
+    font-size: 30px;
+}
+
+article h2 {
+    margin: 0px;
+    font-size: 20px;
+}
+
+article h3 {
+    margin: 0px;
+    font-size: 15px;
+}
+
+nav h1 {
+    color: black;
+    float: left;
+    font-size: 20px;
+}
+
+.wrap_horizontal {
+    display: flex;
+}
+
+.logo {
+    width: 50%;
+    text-align: center;
+}
+
+.topnav {
+    width: 50%;
+    overflow: hidden;
+}
+
+.topnav a {
+    float: right;
+    color: grey;
+    font-size: 20px;
+    padding: 14px 16px;
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+    text-decoration: none;
+}
+
+.topnav a.active {
+    color: orange;
+}
+
+.topnav a:hover {
+    background-color: #f7eded;
+}
